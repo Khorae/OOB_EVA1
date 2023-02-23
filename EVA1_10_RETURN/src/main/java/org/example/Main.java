@@ -8,6 +8,6 @@ public class Main {
         square(10); //Llamada a funcion sin procesar el resultado
         int resu = square(3);
         System.out.println(resu);
-        System.out.println(square(5));
+        System.out.println(square(10));
     }
 }
