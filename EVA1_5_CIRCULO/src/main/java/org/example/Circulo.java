@@ -43,8 +43,5 @@ public class Circulo {
         System.out.println("El valor del area es de: "+area+" cm.");
         System.out.println("El valor del perimetro es de: "+perimetro+" cm.");
     }
-    public void imprimirA(){
-        System.out.println("a");
-    }
 }
 
