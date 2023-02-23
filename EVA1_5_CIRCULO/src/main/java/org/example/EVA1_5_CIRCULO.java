@@ -10,5 +10,6 @@ public class EVA1_5_CIRCULO {
         cc.setArea(0);
         cc.setPerimetro(0);
         cc.imprimirDatos();
+        cc.imprimirA();
     }
 }

@@ -3,7 +3,7 @@ public class Circulo {
     private double area;
     private double perimetro;
     private double radio;
-
+    private String a;
     public Circulo() {
         area = 0;
         perimetro = 0;
@@ -42,6 +42,9 @@ public class Circulo {
         System.out.println("");
         System.out.println("El valor del area es de: "+area+" cm.");
         System.out.println("El valor del perimetro es de: "+perimetro+" cm.");
+    }
+    public void imprimirA(){
+        System.out.println("a");
     }
 }
 
