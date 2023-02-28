@@ -31,9 +31,6 @@ public class Automovil {
         return año;
     }
     public int getAdeudo(){
-         if(año<=2000){
-             adeudo = 1500;
-         }
         switch (año){
             case 2001,2002,2003,2004,2005:
                     adeudo = 2000;
@@ -47,6 +44,8 @@ public class Automovil {
             case 2016,2017,2018,2019,2020,2021,2023:
                     adeudo = 4000;
             break;
+            default:
+                adeudo = 1500;
         }
         return adeudo;
     }
